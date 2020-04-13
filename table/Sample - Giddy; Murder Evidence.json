@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Giddy",
+				"abbreviation": "Brew",
+				"full": "TheGiddyLimit",
+				"authors": [
+					"TheGiddyLimit"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"table": [
+		{
+			"name": "Random Clues; Murder Evidence",
+			"source": "Giddy",
+			"intro": [
+				"The following table can be used as inspiration when a quick piece of murder-scene evidence is required.",
+				"{@note The \"intro\" section is optional.}"
+			],
+			"outro": [
+				"Ideally, this table should be consulted in advance of a situation which would require it, as the results can feed into greater plot hooks.",
+				"{@note The \"outro\" section is optional.}"
+			],
+			"caption": "Murder Evidence",
+			"colLabels": [
+				"1d6",
+				"Evidence"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"A discarded or otherwise forgotten piece of attire belonging to a suspect"
+				],
+				[
+					"2",
+					"A blood-stained weapon"
+				],
+				[
+					"3",
+					"Identifiable markings of magical assault using a specific spell"
+				],
+				[
+					"4",
+					"A letter containing incriminating information on one or more suspects"
+				],
+				[
+					"5",
+					"A trail of blood leading to an unconscious and badly wounded member of the group responsible"
+				],
+				[
+					"6",
+					"A living witness, who was unable or unwilling to leave the crime scene"
+				]
+			]
+		}
+	]
+}
