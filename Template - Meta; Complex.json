@@ -1,0 +1,39 @@
+// You will need to remove these lines for the code to pass JSONlint.
+// The various feilds have been given descriptive text entries which should be read and replaced. 
+// Sometimes the content isn't a string. (text) When the value is integer the response will start with #
+// Boolean means the you'll have to be either "true" or "false"
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "a_name_that_reflects_the_name_of_the_source",
+				"abbreviation": "abbreviation_for_JSON_here (Try to keep under 4 characters)",
+				"full": "The Actual Name of the Source (ie. The Guide to Hombrewing: A Wonder in Wandering) ",
+				"authors": [
+					"the_author's_name"
+				],
+				"convertedBy": [
+					"your_discord_id"
+				],
+				"color": "hexcode_goes_here",
+				"version": "(the_source's_version_number_of_such)",
+				"url": "The_URL_to_find_the_original_work_(where_you_can_purchase_or_legally_download) or else https://github.com/TheGiddyLimit/homebrew",
+				"targetSchema": "1.1.0"
+			}
+		],
+		"dateAdded": unix_epoc_goes_here (https://www.unixtimestamp.com/)
+	}
+}
+
+
+,
+	"action": [
+		{
+			"name": "Extinguish",
+			"entries": [
+				"When you take the Extinguish action, you may end the {@condition On Fire} condition for a creature within 5 feet of you, or within reach of your unarmed strikes (whichever is greater)."
+			],
+			"source": "Giddy"
+		}
+	]

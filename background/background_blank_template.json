@@ -1,0 +1,167 @@
+{
+
+<ADD_YOUR_META_HERE>
+
+	},
+	"background": [
+		{
+			"name": "<name_of_the_background>",
+			"source": "<replace_with_the_JSON_fieldvalue_from_meta>",
+			"skillProficiencies": [
+				{
+					<skill_list (See_wiki_Entry)>
+					Example:
+					"athletics": true,
+
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill <skill_name1>}, {@skill <skill_name_n=1>}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "<List of tool proficiences (If any, remove this object if there are none.)>"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "<List of equipment proficiences (If any, remove this object if there are none.)>"
+						}
+					]
+				},
+				{
+					"name": "Feature:<name_of_the_feature>",
+					"type": "entries",
+					"entries": [
+						"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"<Description of the background>",
+						{
+							"type": "table",
+							"colLabels": [
+								"d<n+1>",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"<trait 1>"
+								],
+								[
+									"2",
+									"<trait 2>"
+								],
+								[
+									"<n+1>",
+									"<trait n+1>"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d<n+1>",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"<ideal 1>"
+								],
+								[
+									"2",
+									"<ideal 2>"
+								],
+								[
+									"<n+1>",
+									"<ideal n+1>"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6<n+1>",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"<bond 1>"
+								],
+								[
+									"2",
+									"<bond 2>"
+								],
+								[
+									"<n+1>",
+									"<bond n+1>"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d<n+1>",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"<flaw 1>"
+								],
+								[
+									"2",
+									"<flaw 2>"
+								],
+								[
+									"<n+1>",
+									"<flaw n+1>"
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					<tool_list (See_wiki_Entry)>
+					Example:					
+					"herbalism kit": true
+				}
+			]
+		}
+	]
+}

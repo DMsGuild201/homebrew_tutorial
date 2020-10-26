@@ -1,0 +1,19 @@
+// You will need to remove these lines for the code to pass JSONlint.
+// The various feilds have been given descriptive text entries which should be read and replaced. 
+// Sometimes the content isn't a string. (text) When the value is integer the response will start with #
+// Boolean means the you'll have to be either "true" or "false"
+//
+// The minimum required values are below.
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "a_name_that_reflects_the_name_of_the_source",
+				"abbreviation": "abbreviation_for_JSON_here (Try to keep under 4 characters)",
+				"full": "The Actual Name of the Source (ie. The Guide to Hombrewing: A Wonder in Wandering) ",
+				"version": "(the_source's_version_number_of_such)",
+			}
+		]
+	}
+}

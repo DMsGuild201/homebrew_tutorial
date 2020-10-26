@@ -1,0 +1,56 @@
+{
+
+<ADD_YOUR_META_HERE>
+
+	},
+	"adventure": [
+		{		
+			"source": "<replace_with_the_JSON_fieldvalue_from_meta>",
+			"id": "<refernce_code>",
+			"page": 0,
+			"contents": [
+				{
+					"name": "<Name_of_Document>",
+					"headers": [
+						"<Name_of_Section_1>",
+						"<Name_of_Section_n+1>"
+					]
+				}
+			],
+			"level": {
+				"start": 1,
+				"end": 1
+			},
+			"published": "<epoch_time>",
+			"storyline": "<Typicaly_the_setting_or_Season>"
+		}
+	],
+	"adventureData": [
+		{
+			"id": "<refernce_code>",
+			"source": "<replace_with_the_JSON_fieldvalue_from_meta>",
+			"data": [
+				{
+					"type": "section",
+					"name": "<Name_of_Document>",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "<Name_of_Section_1>",
+							"entries": [
+								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada, dolor non dapibus tempus, purus leo lacinia est..."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "<Name_of_Section_n+1>",
+							"entries": [
+								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc malesuada, dolor non dapibus tempus, purus leo lacinia est..."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

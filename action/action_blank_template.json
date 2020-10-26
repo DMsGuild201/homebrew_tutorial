@@ -1,0 +1,22 @@
+{
+
+<ADD_YOUR_META_HERE>
+
+	},
+	"action": [
+		{		
+			"source": "<replace_with_the_JSON_fieldvalue_from_meta>",
+			"page": 0,
+			"name": "<name_of_the_action>",
+			"entries": [
+				"<Text_of_the_Action>"
+			],
+        "time": [
+            {
+                "number": <integer_number>,
+                "unit": "<unit_type>"
+            }
+        ]	
+		}
+	]
+}
